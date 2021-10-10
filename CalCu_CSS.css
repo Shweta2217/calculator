@@ -1,0 +1,191 @@
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Ubuntu', sans-serif;
+        background-image: url("images/bg2.jpg");
+        background-size: cover;
+        color: #fff;
+    }
+    
+    .container_ {
+        padding: 0px 15%;
+    }
+    
+    .subContainer {
+        padding: 0.5% 27%;
+    }
+    
+    .calContainer {
+        background-color: #ec6066;
+        opacity: 0.95;
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+    .Big_heading {
+        padding-top: 15px;
+    }
+    
+    .Big_heading:hover {
+        cursor: pointer;
+    }
+    
+    .enterValue_div {
+        margin: 20px 0.5rem;
+    }
+    
+    .warningText {
+        display: none;
+        background-color: white;
+        color: red;
+        text-align: left;
+        padding-left: 10px;
+        border-radius: 20px;
+        margin-left: 20px;
+        font-weight: bold;
+        font-size: 1rem;
+        width: 40%;
+    }
+    
+    .enterValue {
+        width: 95%;
+        outline: none;
+        height: 8rem;
+        font-size: 2rem;
+        padding-top: 5rem;
+        padding-left: 0.6rem;
+        border-radius: 10px;
+    }
+    
+    .enterValue:hover {
+        box-shadow: 0.5px 0.5px 10px 1px #7c181d;
+    }
+    
+    .fsIcons {
+        font-size: 1.5rem!important;
+    }
+    
+    .btnContainer {
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+        place-items: center;
+        row-gap: 20px;
+        padding-bottom: 20px;
+        margin-top: 30px;
+    }
+    
+    .items {
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 600!important;
+        width: 2.8rem;
+        height: 2.8rem;
+        background-color: #3a95cc;
+        border-radius: 50%;
+        border-color: #fff;
+    }
+    
+    .items:hover {
+        background-color: #62a6d1;
+        box-shadow: 0.5px 0.5px 5px 1px #094b74;
+        cursor: pointer;
+    }
+    /* `---------Footer---------- */
+    
+    .footerText {
+        text-align: center;
+        font-weight: bold!important;
+        font-size: 1.6rem;
+        margin: 0.5% 0;
+        color: black;
+    }
+    /*--------------------------------Media-Querry--------------------------- */
+    
+    @media(max-width:450px) {
+        .subContainer {
+            padding: 30% 0% 5% 0%;
+        }
+        .warningText {
+            font-size: 1.1rem;
+            width: 80%;
+        }
+        .enterValue {
+            width: 95%;
+            height: 7rem;
+            font-size: 1.9rem;
+            padding-top: 4rem;
+        }
+        .fsIcons {
+            font-size: 1rem!important;
+        }
+        .btnContainer {
+            padding-bottom: 25px;
+            row-gap: 0.8rem;
+            margin-top: 30px;
+        }
+        .items {
+            font-size: 1.2rem;
+            width: 2.1rem;
+            height: 2.1rem;
+        }
+    }
+    
+    @media(min-width:450px) and (max-width:550px) {
+        .subContainer {
+            padding: 4% 0% 5% 0%;
+        }
+        .warningText {
+            font-size: 1rem;
+            width: 80%;
+        }
+        .enterValue {
+            width: 95%;
+            height: 9rem;
+            font-size: 2.2rem;
+            padding-top: 4.5rem;
+        }
+        .fsIcons {
+            font-size: 1.2rem!important;
+        }
+        .btnContainer {
+            padding-bottom: 25px;
+            row-gap: 0.8rem;
+            margin-top: 30px;
+        }
+        .items {
+            font-size: 1rem;
+            width: 3rem;
+            height: 3rem;
+        }
+    }
+    
+    @media (min-width:540px) and (max-width:765px) {
+        .subContainer {
+            padding: 1% 10%;
+        }
+        .warningText {
+            font-size: 1.1rem;
+            width: 80%;
+        }
+        .enterValue {
+            width: 95%;
+            height: 9rem;
+            font-size: 2.2rem;
+            padding-top: 4.5rem;
+        }
+        .fsIcons {
+            font-size: 1.2rem!important;
+        }
+        .btnContainer {
+            padding-bottom: 25px;
+            row-gap: 0.8rem;
+            margin-top: 30px;
+        }
+        .items {
+            font-size: 1.5rem;
+            width: 2.6rem;
+            height: 2.6rem;
+        }
+    }
