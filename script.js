@@ -40,8 +40,7 @@ equal.addEventListener("click", function() {
         screen.value = "";
         document.querySelector(".warningText").style.visibility = "visible";
     } else if (val[0] == "*" || val[0] == "/" || val[0] == "-" || val[0] == "+"||val[0] == "%") {
-        document.querySelector(".warningText").style.visibility = "visible";
-        document.querySelector(".warningText").style.width = "60%";
+        document.querySelector(".warningText").style.visibility = "visible";        
         document.querySelector(".warningText").innerText = "! Please enter digits first.";
         screen.value = "";
     } else {
