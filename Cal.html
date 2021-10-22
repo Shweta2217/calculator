@@ -12,18 +12,18 @@
     <!-- font awsome icons -->
     <script src="https://kit.fontawesome.com/bc8330c3d9.js" crossorigin="anonymous"></script>
     <!-- CSS-File -->
-    <link rel="stylesheet" href="CalCu_CSS.css">
+    <link rel="stylesheet" href="calCSS.css">
 </head>
 
 <body>
     <section class="container_">
         <div class="subContainer">
-            <div class="calContainer">
-                <h1 class="Big_heading">Dugu Calculator</h1>
-                <div class="enterValue_div">
-                    <input id="Screen" class="enterValue" type="text" placeholder="Enter Values">
-                </div>
+            <div class="calContainer">              
                 <p class="warningText">! Please enter value.</p>
+                <div class="enterValue_div">
+                    <input oninput="onInputFunction()" id="Screen" class="enterValue" type="text" placeholder="Enter Values">
+                </div>
+               
                 <div class="btnContainer">
 
                     <button class="items" id="clear">C</button>
@@ -51,7 +51,7 @@
             </div>
 
         </div>
-        <div class="footerText">Made with ❤️ By Shweta</div>
+        <div class="footerText"> <span>Made with ❤️ By Shweta</span> </div>
     </section>
 
 
