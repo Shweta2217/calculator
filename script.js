@@ -39,6 +39,7 @@ equal.addEventListener("click", function() {
     if (val == "") {
         screen.value = "";
         document.querySelector(".warningText").style.visibility = "visible";
+        document.querySelector(".warningText").innerText = "! Please enter value.";
     } else if (val[0] == "*" || val[0] == "/" || val[0] == "-" || val[0] == "+"||val[0] == "%") {
         document.querySelector(".warningText").style.visibility = "visible";        
         document.querySelector(".warningText").innerText = "! Please enter digits first.";
